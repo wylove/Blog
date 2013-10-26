@@ -1,0 +1,95 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	min-width: 600px;
+	max-width: 1200px;
+	font-family: 'Segoe UI';
+	background-image: url('images/cannabis.jpg');
+	padding-top: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: 'Segoe UI Light';
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:link {
+	color: #111;
+}
+
+a:visited {
+	color: #333;
+}
+
+#page {
+	overflow: auto;
+	min-width: 600px;
+}
+
+/* Nice border */
+#portrait-image,
+#navbar,
+#sidebar,
+#content,
+#footer-copyright {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+#portrait-image {
+	margin-left: 20px;
+	padding: 0px;
+	min-width: 400px;
+	max-width: 400px;
+	border: 1px solid #ddd;
+	float: right;
+	display: inline;
+}
+
+#content > * {
+	margin: 5px;
+}
+
+.nav.link {
+	margin-right: 10px;
+}
+
+.post {
+	padding: 10px;
+	margin: 10px;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+}
+
+.post-date {
+	color: #555;
+}
+
+.post:hover {
+	background-color: #ddd;
+}
